@@ -1,0 +1,64 @@
+/*primary color*/
+.bg-cream {
+  background-color: #ffe9cb;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/*font*/
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.bg-yellow-500 {
+  background-color: #f48c06;
+}
+.text-yellow-500 {
+  color: #f48c06;
+}
+.floating {
+  animation-name: floating;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+@keyframes floating {
+  0% {
+    transform: translate(0, 0px);
+  }
+  50% {
+    transform: translate(0, 8px);
+  }
+  100% {
+    transform: translate(0, -0px);
+  }
+}
+.floating-4 {
+  animation-name: floating;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+@keyframes floating-4 {
+  0% {
+    transform: translate(0, 0px);
+  }
+  50% {
+    transform: translate(0, 8px);
+  }
+  100% {
+    transform: translate(0, -0px);
+  }
+}
+.text-darken {
+  color: #2e66ae;
+}
+
+.text-origin {
+  color: #2e66ae;
+}
+.accordion-content {
+  transition: max-height 0.3s ease-out, padding 0.3s ease;
+}
